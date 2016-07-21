@@ -1694,3 +1694,21 @@ div.awesomplete > ul:empty {
   min-height: 55px !important;
   background-color: #2B8DD6 !important;
 }
+.search_main{
+  border: 2px solid #C6C7C8;
+  padding: 25px;
+  border-radius: 2px;
+  background: #3A3B41;
+  margin-top: 40px;
+  height: 60px;
+}
+.searc_pad{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.search_icon{
+  color: white;
+  position: relative;
+  top: -40px;
+  right: -260px;
+}
