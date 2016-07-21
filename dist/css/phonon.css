@@ -1727,3 +1727,6 @@ div.awesomplete > ul:empty {
     padding: 10px;
     background: #1D1D25;
 }
+.dish img{
+  width: 38%;
+}
