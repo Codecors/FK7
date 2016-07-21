@@ -22,11 +22,23 @@
         <!-- the home page is the default one. This page does not require to call its content because we define on its tag.-->
         <home data-page="true">
             
-            <header class="header-bar">
-                <div class="center">
-                    <h1 class="title">Phonon Example</h1>
-                </div>
-            </header>
+		<div class="side-panel side-panel-left" data-expose-aside="none" data-disable="right" data-page="home, pagetwo" id="side-home">
+		    <header class="header-bar">
+		        <button class="btn pull-right icon icon-close" data-side-panel-close="true"></button>
+		        <div class="pull-left">
+		            <h1 class="title">Foodgram</h1>
+		        </div>
+		    </header>
+
+		    <div class="content">
+		        <ul class="list">
+		            <li><a class="padded-list">Profile</a></li>
+		            <li><a class="padded-list">About</a></li>
+		            <li><a class="padded-list">Settings</a></li>
+		            <li><a class="padded-list">Login</a></li>
+		        </ul>
+		    </div>
+		</div>
             <div class="content">
 
                 <ul class="list">
