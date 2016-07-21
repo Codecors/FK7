@@ -11,7 +11,23 @@
         <title>App</title>
     </head>
     <body>
-        
+        <div class="side-panel side-panel-left" data-expose-aside="none" data-disable="right" data-page="home, pagetwo" id="side-home">
+		    <header class="header-bar">
+		        <button class="btn pull-right icon icon-close" data-side-panel-close="true"></button>
+		        <div class="pull-left">
+		            <h1 class="title">Foodgram</h1>
+		        </div>
+		    </header>
+      
+		    <div class="content">
+		        <ul class="list">
+		            <li><a class="padded-list">Profile</a></li>
+		            <li><a class="padded-list">About</a></li>
+		            <li><a class="padded-list">Settings</a></li>
+		            <li><a class="padded-list">Login</a></li>
+		        </ul>
+		    </div>
+		</div>
         <!-- Panel tags go here -->
 
         <!-- Side Panel tags go here -->
@@ -24,22 +40,7 @@
         <!-- the home page is the default one. This page does not require to call its content because we define on its tag.-->
         <home data-page="true">
             
-		<div class="side-panel side-panel-left" data-expose-aside="none" data-disable="right" data-page="home, pagetwo" id="side-home">
-		    <header class="header-bar">
-		        <button class="btn pull-right icon icon-close" data-side-panel-close="true"></button>
-		        <div class="pull-left">
-		            <h1 class="title">Foodgram</h1>
-		        </div>
-		    </header>
-		    <div class="content">
-		        <ul class="list">
-		            <li><a class="padded-list">Profile</a></li>
-		            <li><a class="padded-list">About</a></li>
-		            <li><a class="padded-list">Settings</a></li>
-		            <li><a class="padded-list">Login</a></li>
-		        </ul>
-		    </div>
-		</div>
+		
             <div class="content">
 
                 <ul class="list">
