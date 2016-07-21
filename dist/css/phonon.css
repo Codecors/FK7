@@ -1157,7 +1157,8 @@ label {
 }
 .input-wrapper {
   width: 100%;
-  margin-top: 24px;
+  margin-left: 10px;
+  margin-top: 15px;
   position: relative;
   display: inline-block;
   padding: 10px;  
@@ -1685,4 +1686,11 @@ div.awesomplete > ul:empty {
   display: block;
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
+}
+.register_btn{
+  width: 90% !important;
+  margin-left: 15px !important;
+  margin-bottom: 15px !important;
+  min-height: 55px !important;
+  background-color: #2B8DD6 !important;
 }
