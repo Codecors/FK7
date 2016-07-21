@@ -1695,12 +1695,12 @@ div.awesomplete > ul:empty {
   background-color: #2B8DD6 !important;
 }
 .search_main{
-  border: 2px solid #C6C7C8;
-  padding: 25px;
-  border-radius: 2px;
-  background: #3A3B41;
-  margin-top: 40px;
-  height: 60px;
+  border: 2px solid #C6C7C8 !important;
+  padding: 25px !important;
+  border-radius: 2px !important;
+  background: #3A3B41 !important;
+  margin-top: 40px !important;
+  height: 60px !important;
 }
 .searc_pad{
   margin-left: 30px;
