@@ -1074,10 +1074,11 @@ input[type="color"] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  color: #636363;
-  background-color: #fff;
+  color: white;
+  background-color: transparent;
+  padding: 10px;  
   border: none;
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
   outline: none;
 }
 input:invalid,
@@ -1159,6 +1160,7 @@ label {
   margin-top: 24px;
   position: relative;
   display: inline-block;
+  padding: 10px;  
   vertical-align: top;
 }
 .floating-label {
@@ -1171,13 +1173,14 @@ label {
   height: auto;
   display: inline-block;
   font-size: 15px;
-  color: #999;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   -webkit-transition: all 200ms;
   transition: all 200ms;
+  padding: 10px;
 }
 .with-label:focus + .floating-label,
 .input-filled .floating-label {
