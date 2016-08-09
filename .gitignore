@@ -1,15 +1,9 @@
-bin
-node_modules
-test
-*.tmp
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
 
-# OS files
-.DS_Store
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+bower_components/
+node_modules/
+platforms/
+plugins/
 
-# Editors
-*.sublime-project
-*.sublime-workspace
+www/
